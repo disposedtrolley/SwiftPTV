@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Pattern {
-//    public let disruptions: []
+    public let disruptions: [Disruption]
     public let departures: [Departure]?
     public let stops: [StopDetails]?
     public let routes: [Route]?

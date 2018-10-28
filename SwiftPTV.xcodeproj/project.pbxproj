@@ -55,6 +55,7 @@
 		13F9C8311FAF42DF005F5E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F9C82F1FAF42DF005F5E13 /* LaunchScreen.storyboard */; };
 		5AEBA4D52185B6140061DAD9 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBA4D42185B6140061DAD9 /* Pattern.swift */; };
 		5AEBA4D72185BB0B0061DAD9 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBA4D62185BB0B0061DAD9 /* Run.swift */; };
+		5AEBA4D92185C03A0061DAD9 /* Disruption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBA4D82185C03A0061DAD9 /* Disruption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		13F9C8321FAF42DF005F5E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AEBA4D42185B6140061DAD9 /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		5AEBA4D62185BB0B0061DAD9 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		5AEBA4D82185C03A0061DAD9 /* Disruption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disruption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 				131D178B1FB062E300A19F42 /* PTVDirections.swift */,
 				5AEBA4D42185B6140061DAD9 /* Pattern.swift */,
 				5AEBA4D62185BB0B0061DAD9 /* Run.swift */,
+				5AEBA4D82185C03A0061DAD9 /* Disruption.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				13F9C7921FAF201F005F5E13 /* SwiftPTV.swift in Sources */,
 				13F9C7881FAF201F005F5E13 /* HMAC.swift in Sources */,
 				13F9C7901FAF201F005F5E13 /* Utils.swift in Sources */,
+				5AEBA4D92185C03A0061DAD9 /* Disruption.swift in Sources */,
 				13F9C78D1FAF201F005F5E13 /* SHA1.swift in Sources */,
 				131D178E1FB069A700A19F42 /* Direction.swift in Sources */,
 				13F9C7911FAF201F005F5E13 /* Stop.swift in Sources */,
