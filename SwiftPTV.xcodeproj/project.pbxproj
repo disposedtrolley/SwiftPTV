@@ -53,6 +53,8 @@
 		13F9C82C1FAF42DF005F5E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F9C82A1FAF42DF005F5E13 /* Main.storyboard */; };
 		13F9C82E1FAF42DF005F5E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9C82D1FAF42DF005F5E13 /* Assets.xcassets */; };
 		13F9C8311FAF42DF005F5E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F9C82F1FAF42DF005F5E13 /* LaunchScreen.storyboard */; };
+		5AEBA4D52185B6140061DAD9 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBA4D42185B6140061DAD9 /* Pattern.swift */; };
+		5AEBA4D72185BB0B0061DAD9 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEBA4D62185BB0B0061DAD9 /* Run.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		13F9C82D1FAF42DF005F5E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13F9C8301FAF42DF005F5E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13F9C8321FAF42DF005F5E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AEBA4D42185B6140061DAD9 /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		5AEBA4D62185BB0B0061DAD9 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				1325922E200222A300533CE1 /* PTVSearch.swift */,
 				131D178D1FB069A700A19F42 /* Direction.swift */,
 				131D178B1FB062E300A19F42 /* PTVDirections.swift */,
+				5AEBA4D42185B6140061DAD9 /* Pattern.swift */,
+				5AEBA4D62185BB0B0061DAD9 /* Run.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -386,10 +392,12 @@
 				13F9C78D1FAF201F005F5E13 /* SHA1.swift in Sources */,
 				131D178E1FB069A700A19F42 /* Direction.swift in Sources */,
 				13F9C7911FAF201F005F5E13 /* Stop.swift in Sources */,
+				5AEBA4D72185BB0B0061DAD9 /* Run.swift in Sources */,
 				13F9C7871FAF201F005F5E13 /* Data++.swift in Sources */,
 				13F9C78A1FAF201F005F5E13 /* Int++.swift in Sources */,
 				1325922F200222A300533CE1 /* PTVSearch.swift in Sources */,
 				13259232200223BD00533CE1 /* SearchResults.swift in Sources */,
+				5AEBA4D52185B6140061DAD9 /* Pattern.swift in Sources */,
 				13F9C78E1FAF201F005F5E13 /* PTVDepartures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
